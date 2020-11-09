@@ -1,0 +1,35 @@
+Git is a version control system(VCS). It helps to keep the track of files.
+
+Advantages:-
+  1) Easily recover files
+  2) Who introduced an issues and when
+  3) Roll back to previously working state
+  
+History of VCS :-
+  1) Local VCS(using database) --> (Pros-- to keep track of files) (Cons--  All the files remains in local computer && All files may lost)
+  2) Centralized VCS
+                -----------       Pull              -------------
+                |         | -------------------->   |           |
+                | Server  |     push                | Computers |
+                |         | <-------------------    |           |
+                -----------                         -------------
+                centeralized
+                server
+                Pros - All the files(final copy) store in centralized server . if laptop lost then we can pull it later.
+                Cons - If server get damaged then data will lost
+  3) Distributed VCS
+                -----------       Pull              -------------
+                |         | -------------------->   |           |
+                | Server  |     push                | Computers |
+                |         | <-------------------    |           |
+                -----------                         -------------
+                centeralized
+                server
+                
+                if computer pulls then it will get full backups. If servers get damaged then we can reset the server later.
+                Git is also a distributed system.
+                
+How was git created?
+--------------------
+
+      
