@@ -28,8 +28,19 @@ History of VCS :-
                 
                 if computer pulls then it will get full backups. If servers get damaged then we can reset the server later.
                 Git is also a distributed system.
-                
-How was git created?
---------------------
-
-      
+              
+...............................................................................................................................................
+On Git Installation , we get-
+    1) Git Command line tool(we can run linux command)
+    2)Git bash(termianl program)
+   
+Some commands:-
+1) cd - Change directory
+2) pwd - print working directory (give the current directory in which we are)
+3) git config --global user.name "XYZ" 
+                                        - To give user name
+4) git config --global user.email "abc@xyz.com"
+                                        - To give user email
+5) git config --list 
+                    -command to list all the settings Git can find at that point: $ git config --list user.name= "XYZ" and user.email= "abc@xyz.com"
+6) 
